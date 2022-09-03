@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Welcome To Banking</title>
+    </head>
+    <body>
+        <header class="text-center mt-10">
+            <h1 class="text-6xl">
+                Welcome To <span class="font-semibold text-pink-800">Banking</span> Sheba
+            </h1>
+        </header>
+        <main>
+            <section class="bg-pink-900 w-3/4 mx-auto m-4 p-5">
+                <h3 class="text-3xl text-white mb-4">Please Login</h3>
+                <div action="">
+                    <input
+                        type="text"
+                        placeholder="Your Email"
+                        class="border-2 border-black pl-2 block"
+                        id="user-email"
+                    />
+                    <input
+                        type="text"
+                        placeholder="Your Password"
+                        class="border-2 border-black pl-2 block"
+                        id="user-password"
+                    />
+                </div>
+                <button id="login-submit" class="bg-slate-800 mt-2 p-1 text-white">Submit</button>
+            </section>
+        </main>
+    </body>
+    <script src="script.js"></script>
+</html>
